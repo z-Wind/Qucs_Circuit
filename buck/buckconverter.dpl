@@ -1,0 +1,52 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=-72,-289,1160,856,1,17,240>
+  <Grid=10,10,0>
+  <DataSet=buckconverter.dat>
+  <DataDisplay=buckconverter.sch>
+  <OpenDisplay=1>
+  <Script=buckconverter.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 100 350 969 240 3 #c0c0c0 1 00 0 0.001 0.0001 0.0011 1 -10 5 15 1 -0.1 0.2 1.1 315 0 225 "time" "" "">
+	<"ctrl.Vt" #aa0000 0 3 0 1 1>
+	<"V_o.Vt" #ff0000 0 3 0 0 0>
+	  <Mkr 0.0010308 149 -325 6 0 0>
+	<"V_i.Vt" #5500ff 0 3 0 0 0>
+	  <Mkr 0.0010308 281 -321 6 0 0>
+	<"V_sw.Vt" #00ff00 0 3 0 0 0>
+	  <Mkr 0.0010308 414 -328 6 0 0>
+	<"V_L.Vt" #5555ff 0 3 0 0 0>
+	  <Mkr 0.0010308 553 -332 6 0 0>
+  </Rect>
+  <Rect 80 -55 969 165 3 #c0c0c0 1 00 1 0 0.0001 0.00125 1 -0.1 0.5 1.1 1 -0.636652 5 7.00317 315 0 225 "time" "" "">
+	<"ctrl.Vt" #0000ff 0 3 0 0 0>
+	<"V_o.Vt" #ff0000 0 3 0 0 0>
+	  <Mkr 0.001073 929 -214 5 0 0>
+  </Rect>
+  <Rect 90 780 969 240 3 #c0c0c0 1 00 0 0.001 0.0001 0.0011 1 -10 5 15 1 -1 0.5 1 315 0 225 "time" "" "">
+	<"ctrl.Vt" #aa0000 0 3 0 1 1>
+	<"V_o.Vt" #ff0000 0 3 0 0 0>
+	  <Mkr 0.0010425 244 -325 6 0 0>
+	<"V_L.Vt" #5555ff 0 3 0 0 0>
+	  <Mkr 0.0010425 399 -325 6 0 0>
+	<"V_D.Vt" #55aaff 0 3 0 0 0>
+	  <Mkr 0.0010425 553 -321 6 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+  <Text 20 30 12 #000000 0 "V_o=V_i-V_{sw}-V_L if t in T_{on}=DT\n\n5.0964=12-1.00047-5.90313">
+  <Text 60 460 12 #000000 0 "V_o=-V_L+V_D  if  t in T_{off}=(1-D)T\n\n5.144=5.8621-0.718095">
+</Paintings>
