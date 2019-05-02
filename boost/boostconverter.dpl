@@ -1,0 +1,50 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=-43,-319,1174,1028,0.826446,0,289>
+  <Grid=10,10,0>
+  <DataSet=boostconverter.dat>
+  <DataDisplay=boostconverter.sch>
+  <OpenDisplay=1>
+  <Script=boostconverter.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 130 320 969 240 3 #c0c0c0 1 00 0 0.001 0.0001 0.0011 1 -1.86346 5 21.9981 1 10 5 21.9981 315 0 225 "time" "" "">
+	<"ctrl.Vt" #aa0000 0 3 0 1 1>
+	<"V_o.Vt" #ff0000 0 3 0 0 0>
+	  <Mkr 0.0010308 149 -325 6 0 0>
+	<"V_C.Vt" #ff00ff 0 3 0 0 0>
+	  <Mkr 0.0010308 285 -321 6 0 0>
+  </Rect>
+  <Rect 110 -85 969 165 3 #c0c0c0 1 00 1 0 0.0001 0.00125 1 -0.1 0.5 1.1 1 -0.636652 5 7.00317 315 0 225 "time" "" "">
+	<"ctrl.Vt" #0000ff 0 3 0 0 0>
+	<"V_o.Vt" #ff0000 0 3 0 0 0>
+	  <Mkr 0.001073 929 -214 5 0 0>
+  </Rect>
+  <Rect 120 750 969 240 3 #c0c0c0 1 00 0 0.001 0.0001 0.0011 1 -16.3737 10 21.8172 1 -0.1 0.2 1.1 315 0 225 "time" "" "">
+	<"ctrl.Vt" #aa0000 0 3 0 1 1>
+	<"V_o.Vt" #ff0000 0 3 0 0 0>
+	  <Mkr 0.0010425 244 -325 6 0 0>
+	<"V_L.Vt" #5555ff 0 3 0 0 0>
+	  <Mkr 0.0010425 499 -325 6 0 0>
+	<"V_D.Vt" #55aaff 0 3 0 0 0>
+	  <Mkr 0.0010425 643 -321 6 0 0>
+	<"V_i.Vt" #00ffff 0 3 0 0 0>
+	  <Mkr 0.00104422 379 -318 3 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+  <Text 50 0 12 #000000 0 "V_o=V_C if t in T_{on}=DT\n\n16.5487=16.5487">
+  <Text 90 430 12 #000000 0 "V_o=V_i-V_L-V_D  if  t in T_{off}=(1-D)T\n\n16.5193=12-(-5.28321)-0.763903">
+</Paintings>
